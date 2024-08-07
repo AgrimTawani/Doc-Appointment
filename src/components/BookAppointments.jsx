@@ -139,7 +139,7 @@ const BookAppointments = () => {
             </div>
         </div>
 
-        <div>
+        <div className="flex">
         <h1 className="text-white font-roboto font-bold text-3xl mt-9 ml-[100px]">Consent and Privacy.</h1>
 
         <div>
@@ -147,7 +147,7 @@ const BookAppointments = () => {
         </div>
 
 
-        <div className="absolute sm:top-[160%] sm:left-[40%] ">
+        <div className="absolute top-[270%] sm:top-[160%] sm:left-[40%] left-[40%] mb-3">
             <button
             type='submit'
             onClick={handleSubmit}
